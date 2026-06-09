@@ -1,1 +1,50 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+background-color: #f8f9fa;
+}
+
+.container {
+max-width: 1000px;
+}
+
+h1 {
+font-weight: 700;
+}
+
+h2 {
+margin-bottom: 20px;
+font-weight: 600;
+}
+
+.card {
+border: none;
+border-radius: 15px;
+transition: transform 0.3s ease;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+transform: translateY(-5px);
+}
+
+.card-body {
+padding: 25px;
+}
+
+.btn-primary {
+border-radius: 10px;
+}
+
+.contact {
+margin-bottom: 50px;
+}
+
+.contact-item {
+margin-bottom: 10px;
+}
+
+footer {
+text-align: center;
+padding: 20px;
+color: gray;
+}
+
